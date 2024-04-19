@@ -81,7 +81,7 @@ function ListaDeTarefas() {
                 {tarefas.map((tarefa, index) => (
                     <li key={index} className="tarefa">
                         <div>{tarefa}</div>
-                        <div className="remover-tarefa" onClick={() => removerTarefa(index)}>Deslize para excluir</div>
+                        <div className="remover-tarefa" onClick={() => removerTarefa(index)}>Excluir</div>
                     </li>
                 ))}
             </ul>
